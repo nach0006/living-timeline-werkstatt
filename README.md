@@ -8,7 +8,7 @@ Hardware
 - Stable mounting or placement solution
 
 Software
-- MapMapper????
+- MadMapper????
 - TouchDesigner for content control and timing
   - Timeline-based logic to control frame activation and brightness
   - Master brightness parameter for quick adjustments
