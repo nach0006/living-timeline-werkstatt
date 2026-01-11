@@ -6,11 +6,12 @@ The Living Timeline is a light projection installation developed for Werkstatt, 
 Hardware
 - Macbook computer (running TouchDesigner)
 - Hanging arm (non-invasive, no drilling required)
-- EPSON WXGA Projector 
+- EPSON WXGA projector
+- Safety cables
 
 Software
 - TouchDesigner (main control and visual logic)
-- Google Gemini for AI image animation tool
+- Google Gemini and Vidu for AI image animation tool
 - Premiere Pro for video editing software (documentation and behind-the-scenes videos)
 - Google Drive (hosting large video files)
 - GitHub (uploading final project)
@@ -65,12 +66,16 @@ This section presents screenshots and photos that document the development and o
 
 ### TouchDesigner Screenshots
 1. Complete Project Network Overview
+<img width="1272" height="721" alt="1" src="https://github.com/user-attachments/assets/410bc50f-adf3-4dc8-a743-f4e6e960b2ed" />
 
 2. Timeline Logic to Pre-Composite
+<img width="1165" height="524" alt="2" src="https://github.com/user-attachments/assets/9330fcfd-9e51-4ad3-93c7-8ed7d62bc0e3" />
 
 3. Final Projection Output
+<img width="1100" height="266" alt="3" src="https://github.com/user-attachments/assets/c1a8fedc-67e4-4a71-9f14-220ca0d50250" />
 
 4. Interface Buttons
+<img width="1134" height="569" alt="4" src="https://github.com/user-attachments/assets/6441162c-2977-4673-b756-376c0e7247b1" />
 
 
 ## On-Site Projection
@@ -93,20 +98,20 @@ As part of the event setup, a sign was placed near the stairs inviting guests to
 The project started with the idea of creating a non-distracting installation that still carried strong meaning. Early planning focused on respecting Werkstatt’s identity and physical limitations, such as not being allowed to drill into walls. Development followed an iterative approach: first building a functional timeline system in TouchDesigner, then refining placement, brightness, and interaction during on-site testing.
 
 ### Challenges, Rejected Solutions, and Re-planning
-Early challenges emerged during the ideation phase, where initial concepts focused on creating a visually strong, music-reactive projection with higher intensity and colorful effects. This approach was later rejected after realizing that another group was already developing a sound-driven installation for the event. Additionally, such a visually dominant solution risked overwhelming the space and distracting from the re-opening atmosphere.
+Early in the ideation phase, the project explored more visually dominant concepts, including music-reactive projections with strong colors and motion. This direction was later rejected, both because another group was already working with sound-driven visuals and because such an approach risked overwhelming the space during the re-opening event.
 
-After a second visit to Werkstatt and discussions with the owner, the concept was re-planned. The focus shifted toward a calmer and more respectful installation that highlighted the history of the space rather than adding decorative or abstract visuals. An early idea involving purple particle effects around the images, inspired by Werkstatt’s lighting identity, was also discarded when it became clear that the historical images themselves were meant to represent the original state of the place. This insight, combined with the planned historical speech during the event, directly informed the final concept of a subtle, timeline-based projection.
+After a second visit to Werkstatt and conversations with the owner, the concept was re-planned toward a calmer and more respectful installation focused on historical storytelling. Ideas such as adding purple particle effects around the images were discarded when it became clear that the historical images themselves were central to the space’s identity. This shift led to the final timeline-based concept, designed to support the event rather than compete with it.
 
-Midway through development, technical challenges arose due to limited experience with TouchDesigner. Building a stable timing system, managing multiple video outputs, and separating the control interface from the projected output required several iterations. Additional issues appeared when reopening the project file, such as window placement extending beyond the visible screen, which required manual corrections and reinforced the importance of careful output configuration.
+Technical challenges emerged during development due to limited experience with TouchDesigner, particularly in building a stable timing system and managing separate outputs for control and projection. Additional difficulties appeared during on-site testing, where projector placement was restricted by the inability to drill into walls. As a result, height and angle were limited, which affected projection coverage.
 
-The most significant challenges occurred during on-site testing. Projector placement was heavily restricted because drilling into the walls was not allowed, requiring the use of an existing lighting pole and a non-invasive hanging arm. This limited both height and angle, which later affected projection coverage. When aligning the animated videos to the physical frames using Stoner nodes, some videos became cropped when positioned higher, as the video content reached its spatial limits. Slightly repositioning the projector helped reduce this issue, although movement was difficult due to the projector’s weight and hard-to-reach placement. In the remaining cropped areas, shadows in the space made the issue largely unnoticeable to viewers.
+When aligning the animated videos to the physical frames using Stoner nodes, some content became cropped when positioned higher. Minor improvements were achieved by slightly repositioning the projector, but the issue could not be fully resolved, even during the event. Ideally, a higher-mounted projector dedicated to the images would have reduced both cropping and interference from people passing through the projection path. Due to spatial and resource constraints, these limitations were accepted.
 
-During the re-opening event, further attempts were made to resolve the cropping issue together with the teacher present, including testing adjustments and upgrading the TouchDesigner license. However, the issue could not be fully resolved during the event and was therefore accepted as a limitation of the setup. Ideally, a higher-mounted projector dedicated solely to the images would have allowed full visibility and reduced interference from people passing through the projection path, as well as discomfort caused by looking toward the light source. Due to resource and spatial constraints, these improvements could not be implemented.
-
-Despite these limitations, the final installation achieved its intended purpose. The projection was deliberately non-central and positioned upstairs, functioning as a side installation rather than a focal point. Audience feedback was positive, and the installation successfully brought Werkstatt’s history to life in a subtle and meaningful way that aligned with both the identity of the space and the context of the event.
+Despite these challenges, the final installation functioned as intended. Positioned upstairs and designed to be non-central, it was received positively and successfully brought Werkstatt’s history to life in a subtle way that aligned with the space and event context.
 
 ### Task Distribution
 The project was developed by a team of two. Tasks were divided across concept development, TouchDesigner programming, AI image animation, and technical testing. Both members collaborated closely on ideation and decision-making. In addition, the team produced two videos: one documenting the final result and one behind-the-scenes video explaining the setup and process.
 
 ### Learning Effect
-The project provided hands-on experience with projection mapping constraints, timing systems in TouchDesigner, and the integration of AI-generated content into a real-world installation. It also strengthened skills in adapting concepts to client and space requirements.
+The project provided hands-on experience with projection mapping constraints, timing systems in TouchDesigner, and the integration of AI-generated content into a real-world installation. It also strengthened skills in adapting concepts to client and spatial requirements, particularly when working under technical and physical limitations.
+
+Overall, the project was a highly rewarding experience. Although working with TouchDesigner was at times challenging and frustrating due to its complexity and our limited prior experience, the process remained engaging and motivating. Seeing the installation function successfully during the re-opening event and observing how visitors interacted with it made the effort worthwhile. The event atmosphere was inspiring, and experiencing the project in a live context reinforced the importance of persistence, collaboration, and iterative problem-solving. This project increased both technical confidence and enthusiasm for working with interactive, spatial, and installation-based media in future projects.
