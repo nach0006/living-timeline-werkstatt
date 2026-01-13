@@ -78,9 +78,9 @@ This section presents screenshots and photos that document the development and o
 <img width="1134" height="569" alt="4" src="https://github.com/user-attachments/assets/6441162c-2977-4673-b756-376c0e7247b1" />
 
 ### Video Documentation
-Due to file size limitations on GitHub, the full video documentation is hosted externally on Google Drive. The folder includes:
-- **Final Result Video** – showing the completed projection mapping installation in the Werkstatt space.
-- **Behind-the-Scenes Video** – documenting the setup, testing, technical decisions, and development process.
+Due to file size limitations on GitHub, the full video documen bhtation is hosted externally on Google Drive. The folder includes:
+- **Final Result Video:** showing the completed projection mapping installation at the Werkstatt re-opening event.
+- **Behind-the-Scenes Video:** documenting the setup, testing, technical decisions, and development process.
 
 [Google Drive – A Living Timeline (Results & Process)](https://drive.google.com/drive/folders/1TnIUgRKAjgkrbTA-dzw8H_1hNqAKsDf5?usp=sharing)
 
