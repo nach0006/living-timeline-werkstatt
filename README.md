@@ -12,8 +12,8 @@ Hardware
 Software
 - TouchDesigner (main control and visual logic)
 - Google Gemini and Vidu for AI image animation tool
-- Premiere Pro for video editing software (documentation and behind-the-scenes videos)
-- Google Drive (hosting large video files)
+- Premiere Pro for video editing software (behind-the-scenes and results videos)
+- Google Drive (hosting the large video files)
 - GitHub (uploading final project)
 
 
