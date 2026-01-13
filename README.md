@@ -3,13 +3,13 @@ The Living Timeline is a light projection installation developed for Werkstatt, 
 
 
 ## Tools Used
-Hardware
+**Hardware**
 - Macbook computer (running TouchDesigner)
 - Hanging arm (non-invasive, no drilling required)
 - EPSON WXGA projector
 - Safety cables
 
-Software
+**Software**
 - TouchDesigner (main control and visual logic)
 - Google Gemini and Vidu for AI image animation tool
 - Premiere Pro for video editing software (behind-the-scenes and results videos)
@@ -20,19 +20,19 @@ Software
 ## Process
 This section describes the overall process and technical logic behind the project, explaining how the installation was built step by step and how the different elements work together to create the living timeline.
 
-1. Prepare the visual content
+**1. Prepare the visual content**
 - Collect four historical images related to the location. These images are physically placed horizontally next to each other in the space.
 - Use Google Gemini to add subtle movement to each image. Export each result as a short video.
 
-2. Set up TouchDesigner
+**2. Set up TouchDesigner**
 - Open TouchDesigner and create a new project.
 - Import the four AI-generated videos as TOPs (one per historical image).
 
-3. Create the timing system
+**3. Create the timing system**
 - Build a timer and count system using CHOPs that controls how long each image is highlighted.
 - Set the count to loop from 0 to 3, so the system cycles through the four images continuously.
 
-4. Highlight one image at a time
+**4. Highlight one image at a time**
 - Add a Level TOP to each video.
 - Use expressions in the opacity parameter so only one image is visible at a time:
   - Image 1 visible when count = 0
@@ -41,14 +41,14 @@ This section describes the overall process and technical logic behind the projec
   - Image 4 visible when count = 3
 - This creates a left-to-right highlight effect, where one image is projected and subtly animated while the others are not highlighted.
 
-5. Switch and positioning
+**5. Switch and positioning**
 - Connect the videos to a Level TOP to manage selection.
 - Add a Stoner container to each image to precisely match the physical frames on the wall, which was done during on-site testing.
 
-6. Override: show all images
+**6. Override: show all images**
 - Add a Switch TOP that overrides the timeline logic and displays all four images at the same time. - This allows switching between a guided timeline mode and a full overview mode. We connected this to a button.
   
-7.  Final composition and output
+**7.  Final composition and output**
 - Connect each Stoner to a Null TOP and combine them in a COMP with a fixed output resolution.
 - Add a final Level TOP to control the brightness with a slider.
 - Connect the final output to a Window COMP and configure the following settings so the controls remain visible on the computer while displaying only the final output on the projector:
@@ -65,17 +65,25 @@ This section describes the overall process and technical logic behind the projec
 This section presents screenshots and photos that document the development and outcome of the living timeline installation. 
 
 ### TouchDesigner Screenshots
-1. Complete Project Network Overview
+**1. Complete Project Network Overview**
 <img width="1272" height="721" alt="1" src="https://github.com/user-attachments/assets/410bc50f-adf3-4dc8-a743-f4e6e960b2ed" />
 
-2. Timeline Logic to Pre-Composite
+**2. Timeline Logic to Pre-Composite**
 <img width="1165" height="524" alt="2" src="https://github.com/user-attachments/assets/9330fcfd-9e51-4ad3-93c7-8ed7d62bc0e3" />
 
-3. Final Projection Output
+**3. Final Projection Output**
 <img width="1100" height="266" alt="3" src="https://github.com/user-attachments/assets/c1a8fedc-67e4-4a71-9f14-220ca0d50250" />
 
-4. Interface Buttons
+**4. Interface Buttons**
 <img width="1134" height="569" alt="4" src="https://github.com/user-attachments/assets/6441162c-2977-4673-b756-376c0e7247b1" />
+
+### Video Documentation
+Due to file size limitations on GitHub, the full video documentation is hosted externally on Google Drive. The folder includes:
+- **Final Result Video** – showing the completed projection mapping installation in the Werkstatt space.
+- **Behind-the-Scenes Video** – documenting the setup, testing, technical decisions, and development process.
+
+[Google Drive – A Living Timeline (Results & Process)](https://drive.google.com/drive/folders/1TnIUgRKAjgkrbTA-dzw8H_1hNqAKsDf5?usp=sharing)
+
 
 
 ## On-Site Projection
